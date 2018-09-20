@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"分类";
-    _dataArr = [[NSArray alloc]initWithObjects:@"推荐分类", @"潮流女装",@"品牌男装",@"酒水饮料",@"家用电器",@"手机数码",@"电脑办公",@"图书",@"居家生活",@"运动户外",@"玩具乐器",@"钟表珠宝",@"食品生鲜",@"奢侈礼品",@"汽车用品",@"生活旅行",nil];
+    _dataArr = [[NSArray alloc]initWithObjects:@"推荐分类",@"随便写饿" @"潮流女装",@"品牌男装",@"酒水饮料",@"家用电器",@"手机数码",@"电脑办公",@"图书",@"居家生活",@"运动户外",@"玩具乐器",@"钟表珠宝",@"食品生鲜",@"奢侈礼品",@"汽车用品",@"生活旅行",nil];
     _myData = [[NSArray alloc]initWithObjects:@"笔记本",@"休闲裤",@"牛仔裤",@"手机",@"净化器",@"火锅",@"OPPO",@"面膜",@"漱口水",@"测试",@"测试1", nil];
     //创建左边列表
     [self LeftTableView];
