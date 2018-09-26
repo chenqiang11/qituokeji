@@ -29,7 +29,7 @@
     [self CreatRightCollectionView];
     UIButton * btn =  [UIButton buttonWithType:UIButtonTypeCustom ];
     btn.frame = CGRectMake(0, 0, 0, 0   );
-    btn.frame =  CGRectMake(30, 39, 30, 30);
+    btn.frame =  CGRectMake(30, 39444444, 30, 30);
 }
 -(void)LeftTableView{
     
