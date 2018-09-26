@@ -27,6 +27,8 @@
     [self LeftTableView];
     //创建右边列表
     [self CreatRightCollectionView];
+    UIButton * btn =  [UIButton buttonWithType:UIButtonTypeCustom ];
+    btn.frame = CGRectMake(0, 0, 0, 0   );
 }
 -(void)LeftTableView{
     
